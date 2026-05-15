@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:title="Home" android:icon="@android:drawable/ic_menu_compass"/>
+    <item android:id="@+id/wikiFragment" android:title="Wiki" android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:id="@+id/alertFragment" android:title="Alerts" android:icon="@android:drawable/ic_dialog_alert"/>
+    <item android:id="@+id/coexistFragment" android:title="Co-exist" android:icon="@android:drawable/ic_menu_help"/>
+    <item android:id="@+id/soundsFragment" android:title="Sounds" android:icon="@android:drawable/ic_media_play"/>
+</menu>

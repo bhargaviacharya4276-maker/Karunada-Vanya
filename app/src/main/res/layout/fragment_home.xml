@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/forest_dark"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🌿 Karunada-Vanya" android:textColor="@color/white"
+                android:textSize="20sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="KARNATAKA WILDLIFE PRIDE" android:textColor="#A8D5B5"
+                android:textSize="10sp" android:letterSpacing="0.1"/>
+        </LinearLayout>
+
+        <!-- Hero -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hero_bg"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:paddingBottom="36dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🐯" android:textSize="48sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Our Forests,\nOur Pride" android:textColor="@color/white"
+                android:textSize="26sp" android:textStyle="bold" android:layout_marginTop="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Learn, protect &amp; coexist with Karnataka's incredible wildlife"
+                android:textColor="#BFDFCF" android:textSize="13sp" android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- Stats -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:padding="14dp" android:paddingTop="20dp" android:gravity="center">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="12dp" android:gravity="center" android:layout_marginEnd="6dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="574" android:textColor="@color/forest_dark" android:textSize="22sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Tigers in Karnataka" android:textColor="@color/text_muted" android:textSize="11sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="12dp" android:gravity="center" android:layout_marginStart="6dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="6,395" android:textColor="@color/forest_dark" android:textSize="22sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Asian Elephants" android:textColor="@color/text_muted" android:textSize="11sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Grid -->
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:columnCount="2" android:padding="14dp" android:paddingTop="0dp">
+            <LinearLayout android:id="@+id/cardWiki" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_columnWeight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="14dp" android:layout_margin="5dp" android:clickable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📖" android:textSize="28sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Wildlife Wiki" android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold" android:layout_marginTop="6dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Discover flora &amp; fauna" android:textColor="@color/text_muted" android:textSize="11sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/cardAlert" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_columnWeight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="14dp" android:layout_margin="5dp" android:clickable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🚨" android:textSize="28sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Movement Alert" android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold" android:layout_marginTop="6dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Community safety pings" android:textColor="@color/text_muted" android:textSize="11sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/cardCoexist" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_columnWeight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="14dp" android:layout_margin="5dp" android:clickable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🛡️" android:textSize="28sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Co-exist Guide" android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold" android:layout_marginTop="6dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Stay safe near wildlife" android:textColor="@color/text_muted" android:textSize="11sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/cardSounds" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_columnWeight="1" android:background="@drawable/card_background"
+                android:orientation="vertical" android:padding="14dp" android:layout_margin="5dp" android:clickable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎵" android:textSize="28sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Forest Sounds" android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold" android:layout_marginTop="6dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Identify birds &amp; animals" android:textColor="@color/text_muted" android:textSize="11sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </GridLayout>
+
+        <!-- Did you know -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/forest_card_bg" android:orientation="vertical"
+            android:padding="14dp" android:layout_margin="14dp" android:layout_marginTop="0dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="DID YOU KNOW?" android:textColor="#A8D5B5" android:textSize="10sp" android:letterSpacing="0.1"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="The Black Panther is not a separate species — it's a melanistic Indian Leopard found in Kabini forests! 🐆"
+                android:textColor="@color/white" android:textSize="13sp" android:layout_marginTop="4dp" android:lineSpacingMultiplier="1.4"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

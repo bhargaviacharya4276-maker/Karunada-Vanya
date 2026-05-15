@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/surface">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/forest_dark" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🚨 Movement Alerts" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="LIVE · EXPIRES IN 6 HOURS" android:textColor="#A8D5B5" android:textSize="10sp" android:letterSpacing="0.1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:padding="14dp" android:gravity="center_vertical">
+        <TextView android:id="@+id/alertCount" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Loading alerts..." android:textSize="12sp" android:textColor="@color/text_muted"/>
+        <Button android:id="@+id/btnReport" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="+ Report Sighting" android:background="@drawable/btn_danger"
+            android:textColor="@color/white" android:textSize="12sp" android:paddingStart="14dp" android:paddingEnd="14dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/alertRecycler"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:padding="14dp" android:paddingTop="0dp" android:clipToPadding="false"/>
+</LinearLayout>

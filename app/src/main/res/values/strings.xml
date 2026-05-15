@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Karunada-Vanya</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_wiki">Wiki</string>
+    <string name="nav_alert">Alerts</string>
+    <string name="nav_coexist">Co-exist</string>
+    <string name="nav_sounds">Sounds</string>
+    <string name="app_tagline">Karnataka Wildlife Pride</string>
+    <string name="search_hint">Search species…</string>
+    <string name="report_sighting">+ Report Sighting</string>
+    <string name="alert_expires">Alert expires in 6 hours</string>
+    <string name="forest_helpline">Karnataka Forest Dept: 1800-425-8555</string>
+</resources>

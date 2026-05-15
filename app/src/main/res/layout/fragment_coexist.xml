@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/forest_dark" android:orientation="vertical" android:padding="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🛡️ Co-exist Guide" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="SAFETY · AWARENESS · RESPECT" android:textColor="#A8D5B5" android:textSize="10sp" android:letterSpacing="0.1"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/forest_card_bg" android:orientation="vertical"
+            android:padding="20dp" android:layout_margin="14dp" android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌿" android:textSize="40sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Living with Wildlife" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="8dp" android:gravity="center"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Knowledge is your best protection. Our ancestors lived alongside these animals — we can too."
+                android:textColor="#BFDFCF" android:textSize="12sp" android:layout_marginTop="4dp"
+                android:gravity="center" android:lineSpacingMultiplier="1.4"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="14dp" android:paddingTop="0dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🐘 If an elephant enters your field" android:textSize="13sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/tip_danger_bg" android:orientation="vertical"
+                android:padding="12dp" android:paddingStart="16dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="DO NOT" android:textColor="@color/danger" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Never run directly away — elephants can charge at 25 km/h. Do not shout or throw objects."
+                    android:textSize="13sp" android:lineSpacingMultiplier="1.5" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/tip_safe_bg" android:orientation="vertical"
+                android:padding="12dp" android:paddingStart="16dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="DO THIS" android:textColor="@color/forest_dark" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Quietly move behind a solid structure. Make low noise with a drum or torch to gently guide it away."
+                    android:textSize="13sp" android:lineSpacingMultiplier="1.5" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/tip_safe_bg" android:orientation="vertical"
+                android:padding="12dp" android:paddingStart="16dp" android:layout_marginBottom="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="PREVENTION" android:textColor="@color/forest_dark" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Plant lemongrass or chilli on field borders — elephants dislike the smell and naturally avoid them."
+                    android:textSize="13sp" android:lineSpacingMultiplier="1.5" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🐆 If you encounter a leopard" android:textSize="13sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/tip_danger_bg" android:orientation="vertical"
+                android:padding="12dp" android:paddingStart="16dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="DO NOT" android:textColor="@color/danger" android:textSize="10sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Never make direct eye contact or crouch down. Do not turn your back and run."
+                    android:textSize="13sp" android:lineSpacingMultiplier="1.5" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/tip_safe_bg" android:orientation="vertical"
+                android:padding="12dp" android:paddingStart="16dp" android:layout_marginBottom="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="DO THIS" android:textColor="@color/forest_dark" android:textSize="10sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Stand tall, make yourself look large, speak in a calm firm voice. Back away slowly without turning."
+                    android:textSize="13sp" android:lineSpacingMultiplier="1.5" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/forest_card_bg" android:orientation="vertical" android:padding="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="📞 HELPLINE" android:textColor="#A8D5B5" android:textSize="11sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Karnataka Forest Dept: 1800-425-8555" android:textColor="@color/white"
+                    android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Toll Free · 24/7" android:textColor="#BFDFCF" android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.karunadavanya.ui.home.HomeFragment"
+        android:label="Home"/>
+
+    <fragment android:id="@+id/wikiFragment"
+        android:name="com.karunadavanya.ui.wiki.WikiFragment"
+        android:label="Wildlife Wiki">
+        <action android:id="@+id/action_wiki_to_detail"
+            app:destination="@id/wikiDetailFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/wikiDetailFragment"
+        android:name="com.karunadavanya.ui.wiki.WikiDetailFragment"
+        android:label="Species Detail">
+        <argument android:name="speciesId" app:argType="string"/>
+    </fragment>
+
+    <fragment android:id="@+id/alertFragment"
+        android:name="com.karunadavanya.ui.alert.AlertFragment"
+        android:label="Movement Alerts">
+        <action android:id="@+id/action_alert_to_post"
+            app:destination="@id/postAlertFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/postAlertFragment"
+        android:name="com.karunadavanya.ui.alert.PostAlertFragment"
+        android:label="Report Sighting"/>
+
+    <fragment android:id="@+id/coexistFragment"
+        android:name="com.karunadavanya.ui.coexist.CoexistFragment"
+        android:label="Co-exist Guide"/>
+
+    <fragment android:id="@+id/soundsFragment"
+        android:name="com.karunadavanya.ui.sounds.SoundsFragment"
+        android:label="Forest Sounds"/>
+</navigation>

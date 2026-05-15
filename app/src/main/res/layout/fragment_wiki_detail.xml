@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/forest_dark" android:orientation="vertical" android:padding="16dp">
+            <Button android:id="@+id/btnBack" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="‹ Back to Wiki" android:textColor="@color/white" android:background="?attr/selectableItemBackground"
+                android:textSize="14sp" android:padding="0dp"/>
+            <TextView android:id="@+id/detailEmoji" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🐆" android:textSize="64sp" android:gravity="center" android:layout_marginTop="8dp"/>
+            <TextView android:id="@+id/detailName" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold" android:gravity="center"/>
+            <TextView android:id="@+id/detailSci" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textColor="#A8D5B5" android:textSize="12sp" android:textStyle="italic" android:gravity="center" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/card_background" android:orientation="vertical"
+                android:padding="14dp" android:layout_marginBottom="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="QUICK FACTS" android:textColor="@color/text_muted"
+                    android:textSize="10sp" android:letterSpacing="0.1" android:layout_marginBottom="8dp"/>
+                <GridLayout android:id="@+id/factGrid" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:columnCount="2"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/card_background" android:orientation="vertical"
+                android:padding="14dp" android:layout_marginBottom="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="ABOUT THIS SPECIES" android:textColor="@color/text_muted"
+                    android:textSize="10sp" android:letterSpacing="0.1" android:layout_marginBottom="8dp"/>
+                <TextView android:id="@+id/detailDesc" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textSize="13sp"
+                    android:lineSpacingMultiplier="1.6" android:textColor="@color/text_primary"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/ecological_card_bg" android:orientation="vertical"
+                android:padding="14dp" android:layout_marginBottom="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="ECOLOGICAL ROLE" android:textColor="#1B5E20"
+                    android:textSize="10sp" android:letterSpacing="0.1" android:layout_marginBottom="8dp"/>
+                <TextView android:id="@+id/detailRole" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textSize="13sp"
+                    android:lineSpacingMultiplier="1.6" android:textColor="#1B5E20"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
